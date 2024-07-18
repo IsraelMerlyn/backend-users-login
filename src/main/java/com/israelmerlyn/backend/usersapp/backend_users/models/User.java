@@ -24,7 +24,7 @@ public class User {
     @Column(unique=true)
     private  String username;
 
-    @NotEmpty
+    // @NotEmpty
     private  String password;
 
     @NotEmpty
